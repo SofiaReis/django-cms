@@ -26,7 +26,7 @@ Some curiosities, in statisc terms, about this plataform are:
 
 In terms of software engineering, Django CMS uses Agile as software development life cycle (also, known as software process). Agile is a group of software development methods in wich solutions evolve through cross-functional teams. 
 
-It promotes adaptive planning, evolutionary development, early delivery, continuous improvement, and encourages rapid and flexible response to change.[2]
+It promotes adaptive planning, evolutionary development, early delivery, continuous improvement, and encourages rapid and flexible response to change.
 
 Scrum is an iterative and incremental Agile development methodology for managing the development of a product. The Scrum methodology is that a team works as a unit to reach a common goal
 
