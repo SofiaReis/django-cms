@@ -15,22 +15,22 @@ There are other benefits of using Django CMS, such as a very detailed documentat
 
 Django CMS it's already used by some companies and universities like [NASA](https://www.nasa.gov/), [Salt.](https://www.salt.ch/en/), [L'Oreal](https://www.menexpert.de/), [CANONICAL](http://www.canonical.com/) and [Cardiff University](http://www.cardiff.ac.uk/). 
 
-Some curiosities, in statisc terms, about this plataform:
+Some curiosities, in statistic terms, about this platform:
 > - it has been downloaded more than 50000 times;
-> - it has almost 1500 forks on github;
-> - it has no more than 350 contributers, but has more than 3500 stargazers;
+> - it has almost 1500 forks on GitHub;
+> - it has no more than 350 contributors, but has more than 3500 stargazers;
 > - in the last 30 days, the Django CMS community has closed more than 100 issues; 
-> - and, they are very active with commits on github every month.
+> - and, they are very active with commits on GitHub every month.
 
-This is a plataform with a high numbers of open-source contributions by developers from all world. Fact that contributes for the plataform increasing at efficiency and development. 
+This is a platform with a high number of open-source contributions made by developers from all world which contributes towards a greater platform increase at efficiency and development. 
 
 ##Software Processes 
 
 In terms of software engineering, DIVIO uses Agile as software development life cycle (also, known as software process). 
-Agile is a group of software development methods in wich solutions evolve through cross-functional teams. This teams has different functional expertise (technology, finance, marketing, human resources and others) working toward a common goal. Agile promotes adaptive planning, evolutionary development, early delivery, continuous improvement, and encourages rapid and flexible response.
-In this group of software development methods named Agile, we can find Scrum that it's an iterative and incremental methodology for managing the development of the product and it's based on multiple small teams working in an intensive and interdependent manner. Scrum involves a project manager called the "scrum master" that is responsible for defining and prioritizing tasks to the developers complete and also responsible for planning sessions for each task. The master has daily or weekly meetings with the team to discuss how tasks are doing and to identify and evaluate potential project risks and fails. So, this meetings of evaluation can led to constrictice criticism and ideias for improvement.
+Agile is a group of software development methods in which solutions evolve through cross-functional teams. This teams have different functional expertises (technology, finance, marketing, human resources and others) working toward a common goal. Agile promotes adaptive planning, evolutionary development, early delivery, continuous improvement and encourages rapid and flexible response.
+In this group of software development methods named Agile, we can find a sub-method named Scrum that it's an iterative and incremental methodology for managing the development of the product and it's based on multiple small teams working in an intensive and interdependent manner. Scrum involves a project manager called the "scrum master" that is responsible for defining and prioritizing tasks to the developers complete and also responsible for planning sessions for each task. The master has daily and/or weekly meetings with the team to discuss how tasks are developing and to identify and evaluate potential project risks and fails. So, these meetings of evaluation can lead to constructive criticism and ideas for improvement.
 
-DIVIO uses this methodology to manage and produce the product between the DIVIO workers. But the wider development community, in other words, the majority of contributers on github are led by DIVIO example. They do what they see the main workers doing and they contribute every day resolving the issues that are posted on github. This is the main function of contributors on Django CMS.
+DIVIO uses this methodology to manage and produce the project between DIVIO workers. But the wider development community, in other words, the majority of contributors on GitHub are "led by our [DIVIO's] example" as stated by DIVIO developers when contacted. These last contributors follow then the example given by the main contributors [inside DIVIO] and they contribute every day by trying to fix any issues that may come up on the code and other files available on GitHub. This is the main function of worldwide contributors on Django CMS.
  
 
 
