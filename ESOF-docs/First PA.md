@@ -22,12 +22,19 @@ Some curiosities, in statisc terms, about this plataform are:
 > - in the last 30 days, the Django CMS community has closed more than 100 issues; 
 > - and, they are very active with commits on github.
 
-
-
 ##Software Processes 
 
-About Software Processes, the plataform adopts Agile/Scrum processes.
+In terms of software engineering, Django CMS uses Agile as software development life cycle (also, known as software process). Agile is a group of software development methods in wich solutions evolve through cross-functional teams. 
+
+It promotes adaptive planning, evolutionary development, early delivery, continuous improvement, and encourages rapid and flexible response to change.[2]
+
+Scrum is an iterative and incremental Agile development methodology for managing the development of a product. The Scrum methodology is that a team works as a unit to reach a common goal
 
 
+ It defines "a flexible, holistic product development strategy where a development team works as a unit to reach a common goal", challenges assumptions of the "traditional, sequential approach" to product development, and enables teams to self-organize by encouraging physical co-location or close online collaboration of all team members, as well as daily face-to-face communication among all team members and disciplines in the project.
+
+A key principle of scrum is its recognition that during production processes, the customers can change their minds about what they want and need (often called "requirements churn"), and that unpredicted challenges cannot be easily addressed in a traditional predictive or planned manner. As such, scrum adopts an empirical approach—accepting that the problem cannot be fully understood or defined, focusing instead on maximizing the team's ability to deliver quickly and respond to emerging requirements.
+
+ 
 
 
