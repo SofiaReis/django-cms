@@ -30,5 +30,34 @@ In report's description it should be included
 > Getting your issue accepted
 =======
 
-If we browse through GitHub's issues submission history we can observe that many of the issues have labels as seen on the end of each submission title in the image below.
+If we browse through GitHub's issues submission history we can observe that many of the issues have labels as seen on the end of each submission title in the image below that descibe current issue state.
 ![Issues - Labels](/ESOF-docs/images/issues_labels.PNG)
+
+
+> Ticket processing
+=======
+
+As seen on the above image, tickets will get a status attributed to them. ("Status: ready for review" -- "Status: ready to be merged") 
+
+Additionally, submissions may be marked with a 'needs' label where it is specified what must be added by the contributor in order for the ticket to continue to be processed. ("needs design decision")
+These will have a red background if they are critical and prevent the processing for being completed or a blue background if the need is not critical, such as:
+
+>docs
+(pull requests only) Code without docs or tests?! In django CMS? No way!
+
+Kinds can also be used to mark and specify the point of the ticket, i.e., whether it is enhancement, bug fix, etc.
+
+Components mark can specify which components the ticket affects. ("component: frontend")
+
+Any other miscellaneous marks or comments may also be added ("backport")
+
+
+> Django CMS ticket processing system rules
+=======
+
+>- one and only one status must be applied to each ticket
+- a healthy ticket (blue) cannot have any critical needs (red)
+- when closed, tickets must have either a healthy (blue) or dead (black) status
+- a ticket with critical needs must not have non-critical needs or miscellaneous other labels
+- has patch and on hold labels imply a related pull request, which must be linked-to when these labels are applied
+-component, non-critical need and miscellaneous other labels should be applied as seems appropriate
