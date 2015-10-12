@@ -31,4 +31,4 @@ In report's description it should be included
 =======
 
 If we browse through GitHub's issues submission history we can observe that many of the issues have labels as seen on the end of each submission title in the image below.
-![Issues - Labels](/images/issues_labels.PNG)
+![Issues - Labels](/ESOF-docs/images/issues_labels.PNG)
