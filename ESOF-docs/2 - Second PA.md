@@ -61,3 +61,8 @@ Any other miscellaneous marks or comments may also be added ("backport")
 - a ticket with critical needs must not have non-critical needs or miscellaneous other labels
 - has patch and on hold labels imply a related pull request, which must be linked-to when these labels are applied
 -component, non-critical need and miscellaneous other labels should be applied as seems appropriate
+
+
+\ Use Case Diagram
+=======
+![Use Case Diagram](/ESOF-docs/images/use_case.PNG)
