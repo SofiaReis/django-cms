@@ -65,4 +65,4 @@ Any other miscellaneous marks or comments may also be added ("backport")
 
  Use Case Diagram
 =======
-![Use Case Diagram](/ESOF-docs/images/use_case.PNG)
+![Use Case Diagram](/ESOF-docs/images/use_case.png)
