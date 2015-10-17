@@ -63,6 +63,6 @@ Any other miscellaneous marks or comments may also be added ("backport")
 -component, non-critical need and miscellaneous other labels should be applied as seems appropriate
 
 
-\ Use Case Diagram
+ Use Case Diagram
 =======
 ![Use Case Diagram](/ESOF-docs/images/use_case.PNG)
