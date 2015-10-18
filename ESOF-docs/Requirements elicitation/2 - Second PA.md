@@ -77,6 +77,8 @@ Use Case Diagrams shows the system utility and purpose, specifies the system con
 
 ![Use Case Diagram](/ESOF-docs/images/use_case.png)
 
+**NOTE:** We tried to contact DIVIO about Django CMS user stories, but they can't provide that information.
+
 ##2.3. Domain Model
 
 The domain model it's responsible for organize the vocabulary of the problem domain (classes that may be described textually in a glossary) and capture information requirements as atrributes and relationships. Different colors are used for diferent packages. Our domain model diagram is in construction, because we're waiting for some information that DIVIO will provide about the're domain. 
