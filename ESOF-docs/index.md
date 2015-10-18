@@ -4,13 +4,13 @@ DJANGO CMS
 ### INDEX
 [1. Django CMS](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Software%20Processes%20and%20Project%20Management/1%20-%20First%20PA.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;[1.1 Overview](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Software%20Processes%20and%20Project%20Management/1%20-%20First%20PA.md#11-overview)
+&nbsp;&nbsp;&nbsp;&nbsp;[1.1. Overview](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Software%20Processes%20and%20Project%20Management/1%20-%20First%20PA.md#11-overview)
 
-&nbsp;&nbsp;&nbsp;&nbsp;[1.2 Software Processes](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Software%20Processes%20and%20Project%20Management/1%20-%20First%20PA.md#12-software-processes)
+&nbsp;&nbsp;&nbsp;&nbsp;[1.2. Software Processes](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Software%20Processes%20and%20Project%20Management/1%20-%20First%20PA.md#12-software-processes)
 
 [2. Requirements Elicitation](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Requirements%20elicitation/2%20-%20Second%20PA.md#2-requirements-elicitation)
 
-&nbsp;&nbsp;&nbsp;&nbsp;[2.1.Issues on Django-CMS](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Requirements%20elicitation/2%20-%20Second%20PA.md#21-issues-on-django-cms)
+&nbsp;&nbsp;&nbsp;&nbsp;[2.1. Issues on Django-CMS](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Requirements%20elicitation/2%20-%20Second%20PA.md#21-issues-on-django-cms)
 
 &nbsp;&nbsp;&nbsp;&nbsp;[2.2. Use Case Diagram](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Requirements%20elicitation/2%20-%20Second%20PA.md#22-use-case-diagram)
 
