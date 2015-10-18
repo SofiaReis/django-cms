@@ -1,6 +1,6 @@
-1. Django CMS - Overview
+DJANGO CMS
 ===================
-
+##1.1 Overview
 [Django CMS](http://www.django-cms.org/) is a web publishing plataform built with the web application framework [Django](https://www.djangoproject.com/). It offers support for developers to create and manage a site that fulfills their precise needs. Also, it's an open-source project, backed at [DIVIO](http://www.divio.com/) (a company that works mainly with Django and Phyton, also open-source technologies) and it has a large number of contributors from around the world.
 
 Some of the main reasons why Django CMS is very popular over other Content Management Systems (CMS), is because it features:
@@ -24,7 +24,7 @@ Some curiosities, in statistic terms, about this platform:
 
 This is a platform with a high number of open-source contributions made by developers from all world which contributes towards a greater platform increase at efficiency and development. 
 
-##2. Software Processes 
+##1.2 Software Processes 
 
 In terms of software engineering, DIVIO uses Agile as software development life cycle (also, known as software process). 
 Agile is a group of software development methods in which solutions evolve through cross-functional teams. This teams have different functional expertises (technology, finance, marketing, human resources and others) working toward a common goal. Agile promotes adaptive planning, evolutionary development, early delivery, continuous improvement and encourages rapid and flexible response.
