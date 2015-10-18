@@ -1,6 +1,8 @@
-2. Requirements Elicitation
+2. Requirements 
 ===================
 
+The requirements elicitation it's the first step in software development because they are responsible for the description of the system, and the development team needs them to start working on the project. Normally, the requirements are discuss and made by several people; and, they are based in what system should do, qualities and the constraints associated to satisfy the client. The definition of requirements has several steps, starts by the **elicitation** that it's based in the client needs. This elicitation requirements goes through some **analysis** and **specification** where the documentation of the requirements is done. After that, they are **verified** where people discuss if the requirements are correct and consistent. And finally, the **management** where the requirements are schedule and distributed by the developers. There are several tecniques to get the requeriment: Brainstorming, surveys, goal analyses and prototyping.
+The fact of not doing this right, that is, missing requirements or if they are compromised for any reason makes the system not able to satisfy the users and also adds a highest cost to the project development.
  
 
 ##2.1. Issues on Django-CMS
