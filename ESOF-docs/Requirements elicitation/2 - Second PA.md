@@ -86,3 +86,5 @@ The domain model it's responsible for organize the vocabulary of the problem dom
 ![Domain Model Diagram](/ESOF-docs/images/domain_model.png)
 
 **NOTE:** We tried to do the diagram but we think that it's better to wait for DIVIO's answer. 
+
+So, we have an user that can login in the page, and can modify some page settings.
