@@ -78,3 +78,5 @@ Use Case Diagrams shows the system utility and purpose, specifies the system con
 ![Use Case Diagram](/ESOF-docs/images/use_case.png)
 
 ##2.3. Domain Model
+
+![Domain Model Diagram](/ESOF-docs/images/domain_model.png)
