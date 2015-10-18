@@ -84,3 +84,5 @@ Use Case Diagrams shows the system utility and purpose, specifies the system con
 The domain model it's responsible for organize the vocabulary of the problem domain (classes that may be described textually in a glossary) and capture information requirements as atrributes and relationships. Different colors are used for diferent packages. Our domain model diagram is in construction, because we're waiting for some information that DIVIO will provide about the're domain. 
 
 ![Domain Model Diagram](/ESOF-docs/images/domain_model.png)
+
+**NOTE:** We tried to do the diagram but we think that it's better to wait for DIVIO's answer. 
