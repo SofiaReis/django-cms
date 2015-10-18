@@ -20,10 +20,10 @@ The core developers of Django-CMS defend that the process to raise a new issue a
 
 To efficiently construct an issue report, you should have the code, some unit-tests to prove that works and explicit and detailed documentation. Django-CMS it's really demanding about this three things. Your issue can be automatically rejected if missing one of the three in the report. 
 
-In order to maximize time efficiency through clarity a report should contain a clear, succinct and informative title, for example
+In order to maximize time efficiency through clarity a report should contain a clear, succinct and informative title, for example:
 > “show_sub_menu displays incorrect nodes when used with soft_root” is helpful, whereas “Menus are broken” is not.
 
-In report's description/documentation it should be included
+In report's description/documentation it should be included:
 
 >- How to reproduce the problem.
 >- What you expected to happen.
@@ -48,11 +48,8 @@ These will have a red background if they are critical and prevent the processing
 (pull requests only) Code without docs or tests?! In django CMS? No way!
 
 Kinds can also be used to mark and specify the point of the ticket, i.e., whether it is enhancement, bug fix, etc.
-
 Components mark can specify which components the ticket affects. ("component: frontend")
-
 Any other miscellaneous marks or comments may also be added. ("backport")
-
 
 Django CMS ticket processing system rules:
 >- one and only one status must be applied to each ticket
@@ -62,7 +59,18 @@ Django CMS ticket processing system rules:
 - has patch and on hold labels imply a related pull request, which must be linked-to when these labels are applied
 - component, non-critical need and miscellaneous other labels should be applied as seems appropriate
 
+When they recive the ticket, the first thing they do it's decide if it's a pull request or an issue. The acceptance means the ticket is healthy, and will have a blue label (and that means they are going somewhere).
+>- ISSUE - The bar for status: accepted is high. The status can be revoked at any time, and should be when appropriate. If the issue needs a design decision, expert opinion or more info, it can’t be accepted.
+- PULL REQUEST - When a pull request is accepted, it should become work in progress or ready for review or even ready to be merged, in those rare cases where a perfectly-formed and unimprovable pull request lands in our laps. As for issues, if it needs a design decision, expert opinion or more info, it can’t be accepted.
+
+As said before, **no issue or pull request can have both a blue (accepted) and a red, grey or black label at the same time**.
+
+Tickets can be accepted (blue label), rejected (black label) or marked as having critical needs (red label). 
 
 ###2.2. Use Case Diagram
+
+Use Case Diagrams shows the system utility and purpose, specifies the system context and the functional requirements as in use cases. Django CMS as a content management system platform for publishing content, they have only two actores: 
+>- **User**, the actor has acess to the page after register, sees the page content and can do what admin allows him to do.
+- **Admin**, the actor that generates and manages the page, and gives the user permissions.
 
 ![Use Case Diagram](/ESOF-docs/images/use_case.png)
