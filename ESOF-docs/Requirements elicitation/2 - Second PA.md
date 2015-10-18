@@ -77,7 +77,7 @@ Use Case Diagrams shows the system utility and purpose, specifies the system con
 
 ![Use Case Diagram](/ESOF-docs/images/use_case.png)
 
-**NOTE:** We tried to contact DIVIO about Django CMS user stories, but they can't provide that information.
+**NOTE:** We tried to contact DIVIO about Django CMS user stories, but they can't provide that information. So, we based ourselves in some documentation located on web. 
 
 ##2.3. Domain Model
 
