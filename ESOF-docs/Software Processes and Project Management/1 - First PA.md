@@ -1,4 +1,4 @@
-DJANGO CMS
+1. DJANGO CMS
 ===================
 ##1.1 Overview
 [Django CMS](http://www.django-cms.org/) is a web publishing plataform built with the web application framework [Django](https://www.djangoproject.com/). It offers support for developers to create and manage a site that fulfills their precise needs. Also, it's an open-source project, backed at [DIVIO](http://www.divio.com/) (a company that works mainly with Django and Phyton, also open-source technologies) and it has a large number of contributors from around the world.
