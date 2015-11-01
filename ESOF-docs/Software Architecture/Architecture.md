@@ -6,6 +6,8 @@
 ##3.3. Process View
 ##3.4. Deployment View
 ##3.5. Use Case View
+
+![Use Case View - Labels](/ESOF-docs/images/use_case_view.PNG)
 ##3.6. Pattern
 
 
