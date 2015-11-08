@@ -5,7 +5,7 @@
 
 ##3.1. Logical View
 
-![](/ESOF-docs/images/dv.png)
+
 
 ##3.2. Implementation View
 
@@ -13,11 +13,11 @@
 
 ##3.4. Deployment View
 
-
+![](/ESOF-docs/images/dv.png)
 
 ##3.5. Use Case View
 
-![Use Case View - Labels](/ESOF-docs/images/use_case_view.png)
+
 ##3.6. Pattern
 
 
