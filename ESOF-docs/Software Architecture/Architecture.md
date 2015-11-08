@@ -61,6 +61,8 @@ To manage the software, Django CMS created some exceptions and warning to make m
 
 The **implementation view** represents the organization of the system components. It can be divide in several diagrams, and each one it's used to model parts of the system like documents, executables and libraries and to show their dependencies. The main function of this type of diagram is to visualize the system components and their organization and relationships.
 
+![](/ESOF-docs/images/component.png)
+
 ##3.3. Process View 
 
 The **process view** represents the communication between nodes through the user stories represented in the use case view. Atually, for every single user story it shows what information needs to get, post or put and from what server do that.
