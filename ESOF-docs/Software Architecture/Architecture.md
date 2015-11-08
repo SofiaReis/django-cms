@@ -1,7 +1,11 @@
 3. Software Architecture
 ===================
 
+Software Architecture is important to define and construct a solution for needed features and what the system needs to behave on a certain way. Usually, software engineerings do that answer the questions: "What we want to do?" and "How we want to do that?". And, normally, they find an architecture that adapts to the product.
 
+So, they define how the system will be divide in modules and how they will connect with each other, and with other frameworks or even hardware. But to have and efficient architecture designed they have to get in mind some concepts as security, safety, perfomance, maintainability, availability and portability.
+
+The model used to find what they want to know about the architecture system is the 4+1 model, that corporates logical view, implementation view, deployment view, process view and use case view that relates the other 4.
 
 ##3.1. Logical View
 
