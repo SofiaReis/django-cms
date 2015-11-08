@@ -32,9 +32,11 @@ Next, we have the class responsible for the CMS configuration (**CMSConfig**), *
 
 ![](/ESOF-docs/images/mod.png)
 
-
+**CMSPluginBaseMetaclass** has the base for plugins. And **AppRegexURLResolver** it's responsible for the routes configuration.
 
 ![](/ESOF-docs/images/models.png)
+
+Next, we have a bunch of classes. **Apphook** is responsible for attach a Django CMS application to a page. **Toolbar** attach a toolbar to the Django CMS application. **CMSApp** makes the configuration of all application. **PluginMenuItem** allows you to choose and personalize the plugins that you want to use. **PluginPool** make the attach between app and plugins. 
 
 ![](/ESOF-docs/images/object.png)
 
