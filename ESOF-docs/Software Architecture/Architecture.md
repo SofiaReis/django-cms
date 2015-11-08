@@ -26,11 +26,11 @@ After the base plugins and toolbars we have some classes that are also important
 
 To manage the software, Django CMS created some exceptions and warning to make more clear to actors they're impraticable/wrong usage of the framework.
    
-    >- Expections:
+    > - Expections:
     
 ![](/ESOF-docs/images/exception2.png)
     
-    >- Warnings:
+    > - Warnings:
     
 ![](/ESOF-docs/images/warning.png)
 
