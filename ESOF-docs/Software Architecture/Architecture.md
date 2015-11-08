@@ -25,6 +25,7 @@ Django CMS as a software that allows to create a website more easily with their 
 
 ##3.5. Use Case View
 
+The **use case view** is responsible for the connection between all other 4 views (Logic, Implementation, Process and Deployment). The user as we mentioned before, can acess to the system as **Adminstrator** and **Viewer**. But sometimes, the user can be bought, because he can be Adminstrator of a page, and also a viewer of the same.
 
 ##3.6. Pattern
 
