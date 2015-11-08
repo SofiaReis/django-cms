@@ -7,6 +7,10 @@
 
 The **Logical View** represents all key abstractions (objects or object classes) in the system; or their packages. The main functions of this type of view are describe the organization of elements and diagrams into sections and their funcionalities, divide the software in different layers to shows it architecture and also represents the communication channels between layers.
 
+The logical section of Django CMS is represented in a folder called cms. If we open that folder, we can see tons of folders with documents that are responsible for the CMS logic. 
+
+
+
 
 
 ##3.2. Implementation View
