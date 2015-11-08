@@ -61,6 +61,8 @@ To manage the software, Django CMS created some exceptions and warning to make m
 
 The **implementation view** represents the organization of the system components. It can be divide in several diagrams, and each one it's used to model parts of the system like documents, executables and libraries and to show their dependencies. The main function of this type of diagram is to visualize the system components and their organization and relationships.
 
+Django-CMS uses Python as main programming language of the project. Python is used mainly in the server programm and in the treatment of information and the connection with database. In the Front-end section is used Javascript, Html and CSS, in the production of user's interface pages.
+
 ![](/ESOF-docs/images/component.png)
 
 ##3.3. Process View 
