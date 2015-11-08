@@ -12,7 +12,7 @@ The next picture is a part of the diagram that represents the object classes res
 
 ![](/ESOF-docs/images/plugin.png)
 
-**Alias plugin** is useful for content that is present in more than one place. **Placeholder plugin** is responsible por implement the software for special model fields that DjangoCMS uses to render user-editable content in templates. That is, it’s the place where a user can add text, video or any other plugin to a webpage, using either the normal Django admin interface or the so called frontend editing. And the **CMS plugin base** it's responsible to the main plugin in general.
+**Alias plugin** is useful for content that is present in more than one place. **Placeholder plugin** is responsible por implement the software for special model fields that DjangoCMS uses to render user-editable content in templates. That is, it’s the place where a user can add text, video or any other plugin to a webpage, using either the normal Django admin interface or the so called frontend editing. And the **CMS plugin base** it's responsible for the main plugin in general.
 
 
 
