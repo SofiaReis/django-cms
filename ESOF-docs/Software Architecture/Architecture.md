@@ -18,7 +18,16 @@ After plugin section, we have the toolbar section where we have the tools to edi
 
 ![](/ESOF-docs/images/toolbar.png)
 
+The main class is the **CMS toolbar** that has 3 toolbars associated: **Page toolbar**, **Placeholder toolbar** and **Basic toolbar**. All bring to the main toolbar, some personalized features to edit de front-end webpage.
 
+To manage the software, Django CMS created some exceptions and warning to make more clear to actors they're impraticable/wrong usage of the framework.
+    * Expections
+![](/ESOF-docs/images/exception1.png)
+![](/ESOF-docs/images/exception2.png)
+    * Warnings
+![](/ESOF-docs/images/warning.png)
+
+**NOTE:** We opt to just represent the packages and their connections in some sections because they had to much functions what turned the class extensive. 
 
 ##3.2. Implementation View
 
