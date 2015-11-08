@@ -56,6 +56,8 @@ The **use case view** is responsible for the connection between all other 4 view
 
 ![](/ESOF-docs/images/use_case_2.png)
 
+As we can see, a viewer can make what the administrator if they're the same. 
+
 ##3.6. Architectural Pattern
 
 **Is Django CMS an MVC Framework?**
