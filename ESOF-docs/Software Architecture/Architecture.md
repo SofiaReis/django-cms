@@ -65,6 +65,10 @@ The **implementation view** represents the organization of the system components
 
 The **process view** represents the communication between nodes through the user stories represented in the use case view. Atually, for every single user story it shows what information needs to get, post or put and from what server do that.
 
+![](/ESOF-docs/images/activity.png)
+
+**Note:** The Edit data is a represent of every type of editing in the system (edit info, edit language, etc).
+
 ##3.4. Deployment View
 
 The **deployment view** describes the hardware components in wich software is developed. The main functions of this type of diagrams are show the hardware organization (nodes and their connections) and describe the hardware components used to unfold software. So, it's responsable to show to the developers how the components are unfolded in hardware. 
