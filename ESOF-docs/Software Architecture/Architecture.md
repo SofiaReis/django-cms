@@ -20,6 +20,7 @@ The **deployment view** describes the hardware components in wich software is de
 ![](/ESOF-docs/images/dev.png)
 
 Django CMS as a software that allows to create a website more easily with their new tools for editing the webpages design, we think that only exists 3 nodes: viewer PC, admin PC and Django CMS. And also, they communicate by HTTP requests. 
+
 **NOTE:** Sometimes, the viewer PC and the admin PC can be the same, because you can be the admin of a page that you like to navigate.
 
 ##3.5. Use Case View
