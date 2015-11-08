@@ -56,7 +56,17 @@ The **use case view** is responsible for the connection between all other 4 view
 
 ![](/ESOF-docs/images/use_case_2.png)
 
-##3.6. Pattern
+##3.6. Architectural Pattern
+
+**Is Django CMS an MVC Framework?**
+The answer is both yes and no. The MVC patthern advocates the decoupling of the presentation layer from the application logic. For instance, while designing an online game website API, you might present a game's high scores table as an HTML, XML, or comma-separated (CSV) file. However, its underlying model class would be designed independent of how the data would be finally presented.
+
+MVC is very rigid about what models, views, and controllers do. However, Django CMS takes a much more pratical view to web applications. Due to the nature of the HTTP protocol, each request for a web page is independent of any other request. Django's framework is designed like a pipeline to process each request and prepare a responde. 
+
+Django CMS call this the Model-Template-View (MTV) architecture. There is separation of concerns between the database interfacing classes (Model), request-processing classes (View), and a templating language for the final presentation (Template).
+
+If you compare this to MVC, we have Model equals to Django CMS Model, View equals to Django CMS template and Controller is the framework itself that processes and incoming HTTP request and routes it to the correct view function.
+
 
 
 
