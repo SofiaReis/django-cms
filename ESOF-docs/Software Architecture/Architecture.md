@@ -24,6 +24,21 @@ After the base plugins and toolbars we have some classes that are also important
 
 ![](/ESOF-docs/images/plugincontext.png)
 
+To make the connection with the views, we have **CMSAttachMenu** and **CMSMenu**.
+
+![](/ESOF-docs/images/menu.png)
+
+Next, we have the class responsible for the CMS configuration (**CMSConfig**), **NavExtender** responsible to modify de nav and **SoftRootCutter** class that represents the page that is the root of a significant new section on your site.
+
+![](/ESOF-docs/images/mod.png)
+
+
+
+![](/ESOF-docs/images/models.png)
+
+![](/ESOF-docs/images/object.png)
+
+
 To manage the software, Django CMS created some exceptions and warning to make more clear to actors they're impraticable/wrong usage of the framework.
    
     > - Expections:
