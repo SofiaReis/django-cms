@@ -1,9 +1,9 @@
 3. Software Architecture
 ===================
 
-Software Architecture is important to define and construct a solution for needed features and what the system needs to behave on a certain way. Usually, software engineerings do that answer the questions: "What we want to do?" and "How we want to do that?". And, normally, they find an architecture that adapts to the product.
+Software Architecture is important to define and construct a **solution** for needed features and what the system needs to behave on a certain way. Usually, software engineerings do that answer the questions: **"What we want to do?"** and **"How we want to do that?"**. And, normally, they find an architecture that adapts to the product.
 
-So, they define how the system will be divide in modules and how they will connect with each other, and with other frameworks or even hardware. But to have and efficient architecture designed they have to get in mind some concepts as security, safety, perfomance, maintainability, availability and portability.
+So, they define how the system will be divide in modules and how they will connect with each other, and with other frameworks or even hardware. But to have and efficient architecture designed they have to get in mind some concepts as **security, safety, perfomance, maintainability, availability and portability**.
 
 The model used to find what they want to know about the architecture system is the 4+1 model, that corporates logical view, implementation view, deployment view, process view and use case view that relates the other 4.
 
@@ -58,6 +58,8 @@ To manage the software, Django CMS created some exceptions and warning to make m
 **NOTE:** We opt to just represent the packages and their connections in some sections because they had to much functions what turned the class extensive. 
 
 ##3.2. Implementation View
+
+The **implementation view** represents the organization of the system components. It can be divide in several diagrams, and each one it's used to model parts of the system like documents, executables and libraries and to show their dependencies. The main function of this type of diagram is to visualize the system components and their organization and relationships.
 
 ##3.3. Process View 
 
