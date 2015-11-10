@@ -15,3 +15,19 @@ DJANGO CMS
 &nbsp;&nbsp;&nbsp;&nbsp;[2.2. Use Case Diagram](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Requirements%20elicitation/requirements.md#22-use-case-diagram)
 
 &nbsp;&nbsp;&nbsp;&nbsp;[2.3. Domain Model](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Requirements%20elicitation/requirements.md#23-domain-model)
+
+[3. Software Architecture](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Software%20Architecture/Architecture.md#3-software-architecture)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[3.1. Logical View](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Software%20Architecture/Architecture.md#31-logical-view)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[3.2. Implementation View](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Software%20Architecture/Architecture.md#32-implementation-view)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[3.3. Process View](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Software%20Architecture/Architecture.md#33-process-view)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[3.4. Deployment View](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Software%20Architecture/Architecture.md#34-deployment-vieww)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[3.5. Use Case View](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Software%20Architecture/Architecture.md#35-use-case-view)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[3.6. Architectural Pattern](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Software%20Architecture/Architecture.md#36-architectural-pattern)
+
+
