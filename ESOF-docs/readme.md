@@ -24,7 +24,7 @@ DJANGO CMS
 
 &nbsp;&nbsp;&nbsp;&nbsp;[3.3. Process View](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Software%20Architecture/Architecture.md#33-process-view)
 
-&nbsp;&nbsp;&nbsp;&nbsp;[3.4. Deployment View](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Software%20Architecture/Architecture.md#34-deployment-vieww)
+&nbsp;&nbsp;&nbsp;&nbsp;[3.4. Deployment View](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Software%20Architecture/Architecture.md#34-deployment-view)
 
 &nbsp;&nbsp;&nbsp;&nbsp;[3.5. Use Case View](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Software%20Architecture/Architecture.md#35-use-case-view)
 
