@@ -17,13 +17,6 @@ The testability of software components (modules, classes) is determined by facto
 ##4.2. How to improve software test?
 
 
-Controllability: The degree to which it is possible to control the state of the component under test (CUT) as required for testing.
-- Observability: The degree to which it is possible to observe (intermediate and final) test results.
-- Isolateability: The degree to which the component under test (CUT) can be tested in isolation.
-- Separation of concerns: The degree to which the component under test has a single, well defined responsibility.
-- Understandability: The degree to which the component under test is documented or self-explaining.
-- Heterogeneity: The degree to which the use of diverse technologies requires to use diverse test methods and tools in parallel.
-
 ##4.3. Coverage Statistics
      Number of tests (# tests unitários; # tests de sistema, # tests de desempenho, ...)
      % coverage (given by tools like EclEmma)
