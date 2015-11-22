@@ -1,7 +1,21 @@
 2. Verification and Validation 
 ===================
-Discutir como é testado o programa.
-Discutir como melhorar a forma de testar do software.
+
+1) Degree of Testability of the software program
+Topics: Discuss how 'testable' is the program. Discuss how to improve the testability of software components.
+
+The testability of software components (modules, classes) is determined by factors such as:
+- Controllability: The degree to which it is possible to control the state of the component under test (CUT) as required for testing.
+- Observability: The degree to which it is possible to observe (intermediate and final) test results.
+- Isolateability: The degree to which the component under test (CUT) can be tested in isolation.
+- Separation of concerns: The degree to which the component under test has a single, well defined responsibility.
+- Understandability: The degree to which the component under test is documented or self-explaining.
+- Heterogeneity: The degree to which the use of diverse technologies requires to use diverse test methods and tools in parallel.
+
+##How is Django-CMS tested?
+
+##How to improve software test?
+
 
 Controllability: The degree to which it is possible to control the state of the component under test (CUT) as required for testing.
 - Observability: The degree to which it is possible to observe (intermediate and final) test results.
