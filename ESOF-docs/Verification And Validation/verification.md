@@ -33,6 +33,9 @@ And they seem to follow their own advices.
 
 As we mentioned in some [chapters before](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Requirements%20elicitation/requirements.md#21-issues-on-django-cms), Django-CMS it's really restrict about tests. To contribute to the plataform, you have to attach tests mandatorily. According Django-CMS, tests should be **unitary**, should test as much as possible only one function or class; **short running** and **easy to understand**. If you are a developer, you use Django-CMS and want to write and run tests, you can see how to do that in [here](http://docs.django-cms.org/en/latest/contributing/testing.html).
 
+To test Django-CMS, the main core developers established some programs to use in the test process that you can consult in [here](https://github.com/divio/django-cms/blob/develop/test_requirements/requirements_base.txt). Programs as:
+>- Coverage:
+
 
 
 
