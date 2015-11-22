@@ -1,11 +1,5 @@
 4. Verification and Validation 
 ===================
-
-1) Degree of Testability of the software program
-Topics: Discuss how 'testable' is the program. Discuss how to improve the testability of software components.
-
-
-
 ##4.1. How is Django-CMS tested?
 
 As we mentioned in some [chapters before](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Requirements%20elicitation/requirements.md#21-issues-on-django-cms), Django-CMS it's really restrict about tests. To contribute to the plataform, you have to attach tests mandatorily. According Django-CMS, tests should be **unitary**, should test as much as possible only one function or class; **short running** and **easy to understand**. If you are a developer, you use Django-CMS and want to write and run tests, you can see how to do that in [here](http://docs.django-cms.org/en/latest/contributing/testing.html).
@@ -19,36 +13,23 @@ To test Django-CMS, the main core developers established some programs to use in
 >- **Django-better-test:** A better test command for Django. Allows you to use --parallel to run tests in parallel (distributed as evenly as possible across your CPU cores) and --isolate to run each test in a separate process to detect test that leak state. You can also quickly re-run the tests failed in the last run using --failed.
 >- **Pyflakes:** A simple program which checks Python source files for errors. Pyflakes analyzes programs and detects various errors. It works by parsing the source file, not importing it, so it is safe to use on modules with side effects. It’s also much faster.
 
-The testability of software components (modules, classes) is determined by factors
-After some deep studies about software testability components we conclude 
- 
-- Controllability - It is impossible to access Components Under Test (CUT) with the given test suite.
- 
+After discover what tools Django-CMS uses to test the software, we decide to study the software testability, i.e. the ease with which a program can be tested. Well, after make some tests and explore the git repository we made this conclusions about the factors that determinate the software testability:
 
-- Observability - Well explicit. Information about what module is being tested and even a traceback will be displayed in the console with appropriate and noticeable separation. In the end of the test run a compilation of final results (mostly statistical) will also be displayed.
+- **Controllability:** It's impossible to access Components Under Test (CUT) with the given test suite. In Django-CMS, they don't do tests while run time. 
  
-
-- Isolateability: It is possible to run tests on a specific module by adding module name as the last argument when running the test suite. One can also state the directory where the specific tests one wants to run are stored.
+- **Observability:** - Well explicit. Information about what module is being tested and even a traceback will be displayed in the console with appropriate and noticeable separation. In the end of the test run a compilation of final results (mostly statistical) will also be displayed.
  
-
+- **Isolateability:** It is possible to run tests on a specific module by adding module name as the last argument when running the test suite. One can also state the directory where the specific tests one wants to run are stored.
  
-- Separation of concerns: Altough the current test name is displayed it may sometimes not suffice to properly identify what is being tested but mostly the tests have a good separation of concerns given that they are as unitary as possible. As a matter of fact, Django's creators themselves clearly specify in the documentation that:
+- **Separation of concerns:** Altough the current test name is displayed it may sometimes not suffice to properly identify what is being tested but mostly the tests have a good separation of concerns given that they are as unitary as possible. As a matter of fact, Django's creators themselves clearly specify in the documentation that:
 > Generally tests should be:
 >    Unitary (as much as possible). i.e. should test as much as possible only one function/method/class. That’s the very >definition of unit tests. Integration tests are interesting too obviously, but require more time to maintain since they have a >higher probability of breaking.
     
 And they seem to follow their own advices.
 
+- **Understandability:** As stated, altough sometimes test names alone are not enough to accurately identify what component exactly is being tested, it is also displayed which test exactly is being ran so a quick peek on the test code - only in the few cases of need for clarification - should be enough to fully understand the running test.
 
-- Understandability: As stated, altough sometimes test names alone are not enough to accurately identify what component exactly is being tested, it is also displayed which test exactly is being ran so a quick peek on the test code - only in the few cases of need for clarification - should be enough to fully understand the running test.
- 
-
-
-- Heterogeneity: The most recent test suite for Django-cms includes diverse tools such selenium (http://www.seleniumhq.org/), sphinx (http://sphinx-doc.org/), pyenchant(http://pythonhosted.org/pyenchant/) and others as specified in https://github.com/SofiaReis/django-cms/blob/develop/test_requirements/requirements_base.txt but as some tools are purely aesthetic the main testing tool would be Selenium.
-
-
-
-
-
+- **Heterogeneity:** The most recent test suite for Django-cms includes diverse tools such selenium (http://www.seleniumhq.org/), sphinx (http://sphinx-doc.org/), pyenchant(http://pythonhosted.org/pyenchant/) and others as specified in https://github.com/SofiaReis/django-cms/blob/develop/test_requirements/requirements_base.txt but as some tools are purely aesthetic the main testing tool would be Selenium.
 
 ##4.2. How to improve software test?
 
