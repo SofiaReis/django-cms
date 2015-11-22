@@ -31,19 +31,28 @@ And they seem to follow their own advices.
 
 ##4.1. How is Django-CMS tested?
 
-As we mentioned in some [chapters before](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Requirements%20elicitation/requirements.md#21-issues-on-django-cms), Django-CMS it's really restrict about tests. To contribute to the plataform, you have to attach tests mandatorily. 
+As we mentioned in some [chapters before](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Requirements%20elicitation/requirements.md#21-issues-on-django-cms), Django-CMS it's really restrict about tests. To contribute to the plataform, you have to attach tests mandatorily. According Django-CMS, tests should be **unitary**, should test as much as possible only one function or class; **short running** and **easy to understand**. If you are a developer, you use Django-CMS and want to write and run tests, you can see how to do that in [here](http://docs.django-cms.org/en/latest/contributing/testing.html).
+
+
+
+
+
 
 ##4.2. How to improve software test?
 
 
-##4.3. Coverage Statistics
+##4.3. Tests Statistics
 
-After annallising Django-CMS tests code with the coverage tool available with the python installer.
-The final results we got describe the test coverage as 28% over the code. We understand that this value doesn't show a big efficency of the tests code due to its low rate gotten before.
+We made some studies about the Django-CMS tests statics, like how many unit tests it uses, code coverage, system and performance.
+
+About the unit-tests, we found in the git repository two folders named [test_utils](https://github.com/SofiaReis/django-cms/tree/develop/cms/test_utils) and [tests](https://github.com/SofiaReis/django-cms/tree/develop/cms/tests). 
+
+
+Now, about coverage... Django-CMS uses Coverage tool
+After analysing Django-CMS tests code with the coverage tool available with the python installer, the final results we got describe the test coverage as 28% over the code. We understand that this value doesn't show a big efficency of the tests code due to its low rate gotten before.
 
      Number of tests (# tests unitários; # tests de sistema, # tests de desempenho, ...)
      % coverage (given by tools like EclEmma)
-     Code coverage: is it any good? (see http://avandeursen.com/2013/11/19/test-coverage-not-for-managers/)
 
 
 ##4.4. Bug Report
