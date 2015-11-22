@@ -22,9 +22,8 @@ After discover what tools Django-CMS uses to test the software, we decide to stu
 - **Isolateability:** It is possible to run tests on a specific module by adding module name as the last argument when running the test suite. One can also state the directory where the specific tests one wants to run are stored.
  
 - **Separation of concerns:** Altough the current test name is displayed it may sometimes not suffice to properly identify what is being tested but mostly the tests have a good separation of concerns given that they are as unitary as possible. As a matter of fact, Django's creators themselves clearly specify in the documentation that:
-> Generally tests should be:
+> **Generally tests should be:**
 >    Unitary (as much as possible). i.e. should test as much as possible only one function/method/class. That’s the very >definition of unit tests. Integration tests are interesting too obviously, but require more time to maintain since they have a >higher probability of breaking.
-    
 And they seem to follow their own advices.
 
 - **Understandability:** As stated, altough sometimes test names alone are not enough to accurately identify what component exactly is being tested, it is also displayed which test exactly is being ran so a quick peek on the test code - only in the few cases of need for clarification - should be enough to fully understand the running test.
