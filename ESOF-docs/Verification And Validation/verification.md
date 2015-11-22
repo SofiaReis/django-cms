@@ -6,7 +6,7 @@ Topics: Discuss how 'testable' is the program. Discuss how to improve the testab
 
 The testability of software components (modules, classes) is determined by factors such as:
  
-- Controllability ??
+- Controllability - It is impossible to access Components Under Test (CUT) with the given test suite.
  
 
 - Observability - Well explicit. Information about what module is being tested and even a traceback will be displayed in the console with appropriate and noticeable separation. In the end of the test run a compilation of final results (mostly statistical) will also be displayed.
