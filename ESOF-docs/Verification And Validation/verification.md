@@ -31,6 +31,8 @@ And they seem to follow their own advices.
 
 ##4.1. How is Django-CMS tested?
 
+As we mentioned in some [chapters before](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Requirements%20elicitation/requirements.md#21-issues-on-django-cms), Django-CMS it's really restrict about tests. To contribute to the plataform, you have to attach tests mandatorily. 
+
 ##4.2. How to improve software test?
 
 
