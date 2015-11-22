@@ -1,4 +1,4 @@
-2. Verification and Validation 
+4. Verification and Validation 
 ===================
 
 1) Degree of Testability of the software program
@@ -12,9 +12,9 @@ The testability of software components (modules, classes) is determined by facto
 - Understandability: The degree to which the component under test is documented or self-explaining.
 - Heterogeneity: The degree to which the use of diverse technologies requires to use diverse test methods and tools in parallel.
 
-##How is Django-CMS tested?
+##4.1. How is Django-CMS tested?
 
-##How to improve software test?
+##4.2. How to improve software test?
 
 
 Controllability: The degree to which it is possible to control the state of the component under test (CUT) as required for testing.
@@ -24,9 +24,11 @@ Controllability: The degree to which it is possible to control the state of the 
 - Understandability: The degree to which the component under test is documented or self-explaining.
 - Heterogeneity: The degree to which the use of diverse technologies requires to use diverse test methods and tools in parallel.
 
-2) Test Statistics
+4.3. Coverage Statistics
      Number of tests (# tests unitários; # tests de sistema, # tests de desempenho, ...)
      % coverage (given by tools like EclEmma)
      Code coverage: is it any good? (see http://avandeursen.com/2013/11/19/test-coverage-not-for-managers/)
 
+
+4.4. Bug Report
 3) [Opcional] Take a bug report, create test cases to reproduce it, and fix it, eventually using automated software fault diagnosis techniques. (grade >18)
