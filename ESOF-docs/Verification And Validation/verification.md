@@ -35,6 +35,10 @@ And they seem to follow their own advices.
 
 
 ##4.3. Coverage Statistics
+
+After annallising Django-CMS tests code with the coverage tool available with the python installer.
+The final results we got describe the test coverage as 28% over the code. We understand that this value doesn't show a big efficency of the tests code due to its low rate gotten before.
+
      Number of tests (# tests unitários; # tests de sistema, # tests de desempenho, ...)
      % coverage (given by tools like EclEmma)
      Code coverage: is it any good? (see http://avandeursen.com/2013/11/19/test-coverage-not-for-managers/)
