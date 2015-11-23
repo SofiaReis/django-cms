@@ -70,3 +70,4 @@ Django-CMS as a framework that provides front-end changes has a low initializati
 
 
 ##4.4. Bug Report
+Next class, if it's possible. 
