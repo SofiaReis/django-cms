@@ -13,7 +13,7 @@ Software testing involves the execution of a software component or system compon
 
 Software has attached some factors that determinate the quality of itself. Factors like **functionality**, **efficiency**, **portability**, **usability**, **reliability** and **maintainability**.
 
-There are three testing methods: **Black-box testing**, **White-box testing** and **Grey-box testing**.
+To evaluate the software quality, we used several types of tests, **unit tests** for testing all functions/classes individually; **integration tests** for testing a group of components combination during they're process; **functional tests** for testing if the software works in different environments; **performance testing** for testing the speed and efficiency software; **usability testing** for testing how the GUI is easy to use to the clients and **acceptance testing** for ensure that de delivered product meets the requirements and works as the customer expected.
 
 In Software engineering, software project management and software testing, we usually answer to this two questions: "Are we building the right product?" and "Are we buildind the product right?". Well, we answer to the first question to reflect about the software **validation**, and the second  about **verification**. Software verification ensures that the product has been built according to the requirements and design specifications, while software validation ensures that the product actually meets the user's needs, and that the specifications were correct in the first place. Software verification ensures that "you built it right". Software validation ensures that "you built the right thing". Software validation confirms that the product, as provided, will fulfill its intended use.
 
@@ -34,7 +34,7 @@ After discover what tools Django-CMS uses to test the software, we decide to stu
 
 - **Controllability:** It's impossible to access Components Under Test (CUT) with the given test suite. In Django-CMS, they don't do tests while run time. 
  
-- **Observability:** - Well explicit. Information about what module is being tested and even a traceback will be displayed in the console with appropriate and noticeable separation. In the end of the test run a compilation of final results (mostly statistical) will also be displayed.
+- **Observability:**  Well explicit. Information about what module is being tested and even a traceback will be displayed in the console with appropriate and noticeable separation. In the end of the test run a compilation of final results (mostly statistical) will also be displayed.
  
 - **Isolateability:** It is possible to run tests on a specific module by adding module name as the last argument when running the test suite. One can also state the directory where the specific tests one wants to run are stored.
  
