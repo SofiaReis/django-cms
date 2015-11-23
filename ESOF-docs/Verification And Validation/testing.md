@@ -15,6 +15,8 @@ Software has attached some factors that determinate the quality of itself. Facto
 
 There are three testing methods: **Black-box testing**, **White-box testing** and **Grey-box testing**.
 
+In Software engineering, software project management and software testing, we usually answer to this two questions: "Are we building the right product?" and "Are we buildind the product right?". Well, we answer to the first question to reflect about the software **validation**, and the second  about **verification**. Software verification ensures that the product has been built according to the requirements and design specifications, while software validation ensures that the product actually meets the user's needs, and that the specifications were correct in the first place. Software verification ensures that "you built it right". Software validation ensures that "you built the right thing". Software validation confirms that the product, as provided, will fulfill its intended use.
+
 ##4.1. How is Django-CMS tested?
 
 As we mentioned in some [chapters before](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Requirements%20elicitation/requirements.md#21-issues-on-django-cms), Django-CMS it's really restrict about tests. To contribute to the plataform, you have to attach tests mandatorily. According Django-CMS, tests should be **unitary**, should test as much as possible only one function or class; **short running** and **easy to understand**. If you are a developer, you use Django-CMS and want to write and run tests, you can see how to do that in [here](http://docs.django-cms.org/en/latest/contributing/testing.html).
