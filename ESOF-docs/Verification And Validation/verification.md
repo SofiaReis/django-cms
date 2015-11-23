@@ -37,14 +37,14 @@ And they seem to follow their own advices.
 
 We made some studies about the Django-CMS tests statics, like how many unit tests it uses, code coverage, system and performance.
 
-About the unit-tests, we found in the git repository two folders named [test_utils](https://github.com/SofiaReis/django-cms/tree/develop/cms/test_utils) and [tests](https://github.com/SofiaReis/django-cms/tree/develop/cms/tests). 
+About the unit-tests, we found in the git repository two folders named [test_utils](https://github.com/SofiaReis/django-cms/tree/develop/cms/test_utils) and [tests](https://github.com/SofiaReis/django-cms/tree/develop/cms/tests) with somes unit-tests. If you ru
 
 
-Now, about coverage... Django-CMS uses Coverage tool
-After analysing Django-CMS tests code with the coverage tool available with the python installer, the final results we got describe the test coverage as 28% over the code. We understand that this value doesn't show a big efficency of the tests code due to its low rate gotten before.
+Now, about coverage... Django-CMS uses Coverage python package to calculate the degree to which the source code of a program is tested by a particular test suite. It's a code reviewing tool that provides information that helps to see which code has not been tested. Through coverage it's possible rethink the test suite, test strategy, system design and construct new pull requests for the untested parts. After running coverage in the Django-CMS, we consulted the generated [report](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Verification%20And%20Validation/tests.txt) where you can see the report shows the count of executable statements (Stmts), the number of those statements missed (Miss), and the resulting coverage, expressed as a percentage (Cover). We get a total code coverage of 28% which is a low value. Despite of Django-CMS require tests for all pull requests, it's obvious that they have just 28% of the code tested. It's bad, after explore the repository we think that they started to be persistent with tests just some months ago. Maybe in the beginnig test were not really made but now they're making this a tests a big thing. You can consult the coverage [HTML results](https://github.com/SofiaReis/django-cms/tree/develop/ESOF-docs/Verification%20And%20Validation/coverage). 
+
+Running all program 
 
      Number of tests (# tests unitários; # tests de sistema, # tests de desempenho, ...)
-     % coverage (given by tools like EclEmma)
 
 
 ##4.4. Bug Report
