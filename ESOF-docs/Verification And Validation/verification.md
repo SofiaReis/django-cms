@@ -40,15 +40,9 @@ About the unit-tests, we found in the git repository two folders named [test_uti
 
 ![](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Verification%20And%20Validation/runtime.png?raw=true)
 
-
-
 Now, about coverage... Django-CMS uses Coverage python package to calculate the degree to which the source code of a program is tested by a particular test suite. It's a code reviewing tool that provides information that helps to see which code has not been tested. Through coverage it's possible rethink the test suite, test strategy, system design and construct new pull requests for the untested parts. After running coverage in the Django-CMS, we consulted the generated [report](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Verification%20And%20Validation/tests.txt) where you can see the report shows the count of executable statements (Stmts), the number of those statements missed (Miss), and the resulting coverage, expressed as a percentage (Cover). We get a total code coverage of 28% which is a low value. Despite of Django-CMS require tests for all pull requests, it's obvious that they have just 28% of the code tested. It's bad, after explore the repository we think that they started to be persistent with tests just some months ago. Maybe in the beginnig test were not really made but now they're making this a tests a big thing. You can consult the coverage [HTML results](https://github.com/SofiaReis/django-cms/tree/develop/ESOF-docs/Verification%20And%20Validation/coverage). 
 
-Running all program 
-
-
-
-     Number of tests (# tests unitários; # tests de sistema, # tests de desempenho, ...)
+Django-CMS as a framework that provides front-end changes has a low initialization time. It's very quickly. But the load of the website it will depend of the pages content (pictures and animations, for example).
 
 
 ##4.4. Bug Report
