@@ -53,8 +53,9 @@ It's really important to try every day improve the software testability and make
 
 Well, to improve the this crucial component we think is crucial:
 * **Understandability:** Improve the command interface to turn possible see what happens in every test file during the test runtime. 
-* 
+* **Isolateability:** Make a list of possible unit-tests, and allow to run only one and see the report.
 
+In general, they already use powerfull tools for software testing, they have to work hardly in the coverage increase. It's really important have an "healthy" code.  
 
 ##4.3. Tests Statistics
 
