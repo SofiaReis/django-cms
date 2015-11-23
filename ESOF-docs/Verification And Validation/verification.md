@@ -30,7 +30,10 @@ And they seem to follow their own advices.
 
 - **Heterogeneity:** The most recent test suite for Django-cms includes diverse tools such selenium (http://www.seleniumhq.org/), sphinx (http://sphinx-doc.org/), pyenchant(http://pythonhosted.org/pyenchant/) and others as specified in https://github.com/SofiaReis/django-cms/blob/develop/test_requirements/requirements_base.txt but as some tools are purely aesthetic the main testing tool would be Selenium.
 
-##4.2. How to improve software test?
+##4.2. How to improve software testability?
+
+Well, to improve the software testability we think is crucial:
+* **Understandability:** Improve the command interface to turn possible see what happens in every test file during the test runtime. 
 
 
 ##4.3. Tests Statistics
