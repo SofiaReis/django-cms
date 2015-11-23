@@ -49,4 +49,3 @@ Django-CMS as a framework that provides front-end changes has a low initializati
 
 
 ##4.4. Bug Report
-3) [Opcional] Take a bug report, create test cases to reproduce it, and fix it, eventually using automated software fault diagnosis techniques. (grade >18)
