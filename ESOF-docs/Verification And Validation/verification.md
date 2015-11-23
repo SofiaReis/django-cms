@@ -44,6 +44,9 @@ Now, about coverage... Django-CMS uses Coverage python package to calculate the 
 
 Running all program 
 
+![](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Verification%20And%20Validation/runtime.png?raw=true)
+
+
      Number of tests (# tests unitários; # tests de sistema, # tests de desempenho, ...)
 
 
