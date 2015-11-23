@@ -1,5 +1,20 @@
-4. Verification and Validation 
+4. Software Testing
 ===================
+
+Software testing is an investigation conducted to provide stakeholders with information about the quality of the product or service under test. Software testing can also provide an objective, independent view of the software to allow the business to appreciate and understand the risks of software implementation. Test techniques include the process of executing a program or application with the intent of finding software bugs.
+
+Software testing involves the execution of a software component or system component to evaluate one or more properties of interest. In general, these properties indicate the extent to which the component or system under test:
+* Meets the requirements that guided its design and development;
+* Responds correctly to all kinds of inputs;
+* Performs its functions within an acceptable time:
+* Is sufficiently usable;
+* Can be installed and run in its intended environments; 
+* Achieves the general result its stakeholders desire.
+
+Software has attached some factors that determinate the quality of itself. Factors like **functionality**, **efficiency**, **portability**, **usability**, **reliability** and **maintainability**.
+
+There are three testing methods: **Black-box testing**, **White-box testing** and **Grey-box testing**.
+
 ##4.1. How is Django-CMS tested?
 
 As we mentioned in some [chapters before](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Requirements%20elicitation/requirements.md#21-issues-on-django-cms), Django-CMS it's really restrict about tests. To contribute to the plataform, you have to attach tests mandatorily. According Django-CMS, tests should be **unitary**, should test as much as possible only one function or class; **short running** and **easy to understand**. If you are a developer, you use Django-CMS and want to write and run tests, you can see how to do that in [here](http://docs.django-cms.org/en/latest/contributing/testing.html).
@@ -32,8 +47,11 @@ And they seem to follow their own advices.
 
 ##4.2. How to improve software testability?
 
-Well, to improve the software testability we think is crucial:
+It's really important to try every day improve the software testability and make the most perfect product possible. A software tested, it's a software with quality. Doing tests helps to prove if the software requirements are implemented correctly/uncorrectly; Detect defects and ensure that testing is before inclusion in the main repository, to prevent fatal erros and serious problems. Testing also desmonstrates that the program is working equal to the specification and requirements. It's also important test in different environments to verify proper integration with all the system components.
+
+Well, to improve the this crucial component we think is crucial:
 * **Understandability:** Improve the command interface to turn possible see what happens in every test file during the test runtime. 
+* 
 
 
 ##4.3. Tests Statistics
