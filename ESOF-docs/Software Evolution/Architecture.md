@@ -4,6 +4,7 @@ We notice the main page of a djanco-CMS project has not an option to make login 
 
 Here it's the link for the pull request made in Django-CMS: https://github.com/divio/django-cms/pull/4849.
 
+
 ![](/ESOF-docs/Software%20Evolution/Captura%20de%20ecr%C3%A3%202015-12-13,%20%C3%A0s%2014.37.00.png)
 ![](/ESOF-docs/Software%20Evolution/Captura%20de%20ecr%C3%A3%202015-12-13,%20%C3%A0s%2014.37.13.png)
 
