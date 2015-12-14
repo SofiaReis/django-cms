@@ -10,6 +10,8 @@ Here it's the link for the pull request made in Django-CMS: https://github.com/d
 ##BEFORE
 ![](/ESOF-docs/Software%20Evolution/Captura%20de%20ecr%C3%A3%202015-12-13,%20%C3%A0s%2014.37.13.png)
 
+
+##OTHER MENUS WE MADE LINKS
 ![](/ESOF-docs/Software%20Evolution/Captura%20de%20ecr%C3%A3%202015-12-13,%20%C3%A0s%2014.36.31.png)
 ![](/ESOF-docs/Software%20Evolution/Captura%20de%20ecr%C3%A3%202015-12-13,%20%C3%A0s%2014.36.48.png)
 
