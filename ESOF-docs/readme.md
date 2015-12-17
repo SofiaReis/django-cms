@@ -30,4 +30,23 @@ DJANGO CMS
 
 &nbsp;&nbsp;&nbsp;&nbsp;[3.6. Architectural Pattern](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Software%20Architecture/Architecture.md#36-architectural-pattern)
 
+[4. Software Testing](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Verification%20And%20Validation/testing.md#4-software-testing)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[4.1. How is Django-CMS tested?](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Verification%20And%20Validation/testing.md#41-how-is-django-cms-tested)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[4.2. How to improve software testability?](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Verification%20And%20Validation/testing.md#42-how-to-improve-software-testability)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[4.3. Tests Statistics](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Verification%20And%20Validation/testing.md#43-tests-statistics)
+
+[5. Software Evolution](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Software%20Evolution/Architecture.md#5-software-evolution)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[AFTER](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Software%20Evolution/Architecture.md#after)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[BEFORE](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Software%20Evolution/Architecture.md#before)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[OTHER MENUS WE MADE LINKS](https://github.com/SofiaReis/django-cms/blob/develop/ESOF-docs/Software%20Evolution/Architecture.md#other-menus-we-made-links)
+
+
+
+
 
